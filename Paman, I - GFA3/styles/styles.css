@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
+body{
+    background-image: url(../images/prettybackg.jpg);
+    background-size: 100%;
+}
+
+.intro{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro h1{
+    margin-top: 37px;
+    margin-bottom: 12px;
+    font-family: 'Neonderthaw', cursive;
+    font-size: 60px;
+}
+
+.intro p{
+    line-height: 30%;
+    font-size: 15px;
+}
+
+p, h1, h3, hr{
+    color: white;
+}
+
+#randRes{
+    display: flex;
+    text-align: center;
+    margin-left: 29%;
+    margin-right: 29%;
+    margin-bottom: 40px;
+}
+
+#num1{
+    padding: 20px;
+    margin-right: 110px;
+    border: solid 1px white;
+    box-shadow: 0 0 10px #ff159e;
+
+}
+
+#num2{
+    padding: 20px;
+    margin-right: 110px;
+    border: solid 1px white;
+    box-shadow: 0 0 10px #a85efd;
+}
+
+#num3{
+    padding: 20px;
+    border: solid 1px white;
+    box-shadow: 0 0 10px #5efdf5;
+}
+
+button{
+    padding: 5px 70px;
+    margin-left: 41%;
+    margin-bottom: 30px;
+    font-size: 17px;
+    background-color: rgba(92, 91, 91, 0.507);
+    color: white;
+    font-weight: bold;
+    border-color: black;
+}
+
+button:hover{
+    border-color: white;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgb(226, 255, 63);
+}
+
+#results{
+    margin-left: 29%;
+    margin-bottom: 40px;
+    line-height: 6px;
+    font-size: 17px;
+}
+
+
+

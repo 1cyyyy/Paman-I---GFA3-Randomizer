@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randomizer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="../scripts/script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="intro">
+        <h1>Song Genie</h1>
+        <p> Have you ever wanted to sing but weren't sure what music to choose? </p>
+        <p> Fear not! For I, the great and mighty, shall aid in your decision. </p>
+        <p> Simply push the button, and the genre, first letter, and duration of the song will be displayed. </p>
+        <p> You might be wondering, "Why didn't it just give me the song?" Yes, I can just give you the song, but where's the fun in that? </p>
+        <p>Some songs last a very long time so, you're not required to sing all of it. But if you want to, feel free to do so. I just wish you'll still be fine by the end of it.</p>
+    </div>
+
+    <div id="randRes">
+        <div id="num1">
+            <h3>Pop</h3>
+            <hr>
+            <p id="res1">?</p>
+        </div>
+        <div id="num2">
+            <h3>Rock</h3>  
+            <hr>
+            <p id="res2">?</p>
+        </div>
+        <div id="num3">
+            <h3>Hip-hop</h3>
+            <hr>
+            <p id="res3">?</p>
+        </div>
+    </div>
+    
+    <div id="random">
+        <button onclick="random()" id="random">Roll</button>
+    </div>
+    
+
+    <div id="results">
+        <p id="result">Results will be displayed here.</p>
+        <p id="letter"></p>
+        <p id="min"></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
